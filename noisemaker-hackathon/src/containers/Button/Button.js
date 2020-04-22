@@ -18,7 +18,7 @@ export class Button extends Component {
   render() {
     return (
       <section className="button-body">
-        <audio ref={this.audioNode} id="noise" src="/A-Tone.mp3"></audio>
+        <audio ref={this.audioNode} id="noise" src="./A-Tone.mp3"></audio>
         <button className="button" onClick={this.playSound}>Hear Note</button>
       </section>
     )
